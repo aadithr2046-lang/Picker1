@@ -7,7 +7,7 @@ DEFAULT_START = 1
 DEFAULT_END = 10
 
 # Manipulated numbers (admin controlled)
-BASE_ALLOWED_NUMBERS = [1, 4, 6, 9]
+BASE_ALLOWED_NUMBERS = [2,44,11]
 
 HTML = """
 <!DOCTYPE html>
@@ -110,3 +110,4 @@ def index():
 
 if __name__ == '__main__':
     app.run()
+
